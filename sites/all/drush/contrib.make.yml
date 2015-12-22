@@ -1,0 +1,81 @@
+# To install the Drupal modules in this makefile run it from the docroot:
+# drush make --no-core sites/all/drush/contrib.make.yml
+
+# This setting will add all the Drupal modules to the
+# sites/all/modules/contrib directory
+
+defaults:
+  projects:
+    subdir: contrib
+
+# Core version
+# ------------
+# Each makefile should begin by declaring the core version of Drupal that all
+# projects should be compatible with.
+
+core: '7.x'
+
+# API version
+# ------------
+# Every makefile needs to declare it's Drush Make API version. This version of
+# drush make uses API version `2`.
+
+api: '2'
+
+# Projects
+# --------
+# Specify versions when necessary.
+
+projects:
+
+  admin_menu: '3'
+  backup_migrate: '3'
+  better_formats: '1'
+  ckeditor: '1'
+  ckeditor_link: '2'
+  colorbox: '2'
+  colorbox_node: '3'
+  ctools: '1'
+  devel: '1'
+  email: '1'
+  feeds: '2'
+  flag: '3'
+  imce: '1.x' # dev version needed to work with ckeditor
+  imce_mkdir: '1'
+  ip_ranges: '1'
+  job_scheduler: '2'
+  jquery_update: '2'
+  libraries: '2'
+  masquerade: '1'
+  module_filter: '2'
+  pathauto: '1'
+  session_api: '1'
+  simple_toc: '1'
+  token: '1'
+  views: '3'
+
+# Themes
+# ------
+
+  zurb_foundation:
+    version: '5'
+    subdir: '' # no subdirectories for themes
+
+# Libraries
+# ---------
+
+libraries:
+
+  # required by ckeditor
+  ckeditor:
+    download:
+      type: file
+      url: "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.5.6/ckeditor_4.5.6_standard.zip"
+    directory_name: "ckeditor"
+
+  # required by colorbox
+  colorbox:
+    download:
+      type: file
+      url: "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+    directory_name: colorbox

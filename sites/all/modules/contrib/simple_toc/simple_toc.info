@@ -1,0 +1,10 @@
+name = Simple TOC
+description = Simple TOC creates a Table of Contents for node text fields.
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2014-06-01
+version = "7.x-1.0"
+core = "7.x"
+project = "simple_toc"
+datestamp = "1401599028"
+

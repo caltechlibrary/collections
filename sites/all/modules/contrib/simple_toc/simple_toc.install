@@ -1,0 +1,48 @@
+<?php
+
+/**
+ * @file
+ * Install functions for Simple TOC.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function simple_toc_install() {
+  // Weight must be set higher than Revisioning module, to prevent TOC modified
+  // field being overridden.
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('type', 'module', '=')
+              ->condition('name', 'revisioning', '=')
+              ->execute()
+              ->fetchField();
+  db_update('system')
+    ->fields(array('weight' => $weight ? $weight + 1 : 7))
+    ->condition('type', 'module')
+    ->condition('name', 'simple_toc')
+    ->execute();
+}
+
+/**
+ * Implements hook_schema().
+ */
+function simple_toc_schema() {
+  $schema = array();
+  $schema['cache_simple_toc'] = drupal_get_schema_unprocessed('system', 'cache');
+  $schema['cache_simple_toc']['description'] = 'Cache table used to store the processed text fields and corresponding table of contents, for use with Simple TOC module.';
+  return $schema;
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function simple_toc_uninstall() {
+  // Delete all Simple TOC variables. Get a list of variables with a DB query.
+  if ($vars = db_select('variable', 'v')->fields('v')->condition('v.name', db_like('simple_toc_') . '%', 'LIKE')->execute()->fetchAll()) {
+    foreach ($vars as $var) {
+      variable_del($var->name);
+    }
+  }
+
+}
