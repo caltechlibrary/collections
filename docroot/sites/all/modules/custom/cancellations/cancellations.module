@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Cancellations feature.
+ */
+
+include_once 'cancellations.features.inc';

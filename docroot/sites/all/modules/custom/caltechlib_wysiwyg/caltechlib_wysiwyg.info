@@ -1,0 +1,10 @@
+name = Caltech Library WYSIWYG
+core = 7.x
+package = Features
+dependencies[] = ckeditor
+dependencies[] = ckeditor_link
+dependencies[] = features
+dependencies[] = filter
+features[ckeditor_profile][] = Advanced
+features[features_api][] = api:2
+features[filter][] = filtered_html

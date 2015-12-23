@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Deaccessions feature.
+ */
+
+include_once 'deaccessions.features.inc';

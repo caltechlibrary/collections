@@ -1,0 +1,15 @@
+// Non-modular or client styles for .l-header region.
+
+#header-top {
+  background-color: $gray;
+  color: $white;
+  text-align: right;
+}
+
+#banner-title {
+  font-family: $title-font-family;
+  font-size: rem-calc(22);
+  a {
+    color: $black;
+  }
+}
