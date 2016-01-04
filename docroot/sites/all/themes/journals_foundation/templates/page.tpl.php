@@ -1,6 +1,6 @@
 <!--.page -->
 <div role="document" class="page">
-<?php dpm($variables); ?>
+
   <!--.l-header -->
   <header role="banner" class="l-header">
 
