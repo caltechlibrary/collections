@@ -29,6 +29,7 @@ api: '2'
 projects:
 
   admin_menu: '3'
+  admin_views: '1'
   backup_migrate: '3'
   better_formats: '1'
   ckeditor: '1'
