@@ -33,7 +33,6 @@ projects:
   backup_migrate: '3'
   better_formats: '1'
   ckeditor: '1'
-  ckeditor_link: '2'
   colorbox: '2'
   colorbox_node: '3'
   ctools: '1'
