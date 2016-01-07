@@ -39,6 +39,7 @@ projects:
   ctools: '1'
   devel: '1'
   email: '1'
+  entity: '1'
   feeds: '2'
   flag: '3'
   imce: '1.x' # dev version needed to work with ckeditor
