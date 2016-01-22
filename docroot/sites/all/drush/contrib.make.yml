@@ -41,6 +41,7 @@ projects:
   entity: '1'
   feeds: '2'
   flag: '3'
+  floating_block: '1'
   imce: '1.x' # dev version needed to work with ckeditor
   imce_mkdir: '1'
   ip_ranges: '1'
