@@ -6072,6 +6072,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.sidebar .block:first-child {
+  padding-top: 1.875rem; }
+
 #header-top .menu {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
