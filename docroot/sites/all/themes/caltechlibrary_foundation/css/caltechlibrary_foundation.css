@@ -6057,6 +6057,9 @@ html {
 .sidebar .block:first-child {
   padding-top: 1.875rem; }
 
+.front .body p, .front .body ul {
+  padding-left: 0.9375rem; }
+
 #header-top .menu {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
@@ -6099,6 +6102,11 @@ button {
 
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.1em; }
+
+.front .body h2 {
+  color: #7a303f; }
+.front .body h3 {
+  font-weight: bold; }
 
 #header-top {
   background-color: #696B73;

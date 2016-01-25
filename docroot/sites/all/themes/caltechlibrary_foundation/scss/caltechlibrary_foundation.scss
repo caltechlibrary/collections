@@ -100,6 +100,7 @@
 // Each section of the document has it's own partial separated out to improve
 // developer experience. Additionally, grids can be declared in layouts as well.
 @import "layout/aside";
+@import "layout/front";
 @import "layout/header";
 @import "layout/main";
 
@@ -112,6 +113,7 @@
 // @import "states/collapse";
 
 // Themes
+@import "theme/front";
 @import "theme/header_top";
 @import "theme/main";
 @import "theme/tables";
