@@ -61,38 +61,20 @@
 
 @font-face {
   font-family: 'Vaud';
-  src: url('../fonts/VaudUltra-webfont.eot');
+  src: url('../fonts/VaudExtraBold-webfont.eot');
   /* IE9 Compat Modes */
-  src: url('../fonts/VaudUltra-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/VaudUltra-webfont.woff') format('woff'), url('../fonts/VaudUltra-webfont.ttf') format('truetype'), url('../fonts/VaudUltra-webfont.svg#vaudregular') format('svg');
+  src: url('../fonts/VaudExtraBold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/VaudExtraBold-webfont.woff') format('woff'), url('../fonts/VaudExtraBold-webfont.ttf') format('truetype'), url('../fonts/VaudExtraBold-webfont.svg#vaudregular') format('svg');
   /* Legacy iOS */
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Vaud';
-  src: url('../fonts/VaudUltraIt-webfont.eot');
-  /* IE9 Compat Modes */
-  src: url('../fonts/VaudUltraIt-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/VaudUltraIt-webfont.woff') format('woff'), url('../fonts/VaudUltraIt-webfont.ttf') format('truetype'), url('../fonts/VaudUltraIt-webfont.svg#vauditalic') format('svg');
-  /* Legacy iOS */
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'VaudMedium';
-  src: url('../fonts/VaudExtraBold-webfont.eot');
-  /* IE9 Compat Modes */
-  src: url('../fonts/VaudExtraBold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/VaudExtraBold-webfont.woff') format('woff'), url('../fonts/VaudExtraBold-webfont.ttf') format('truetype'), url('../fonts/VaudExtraBold-webfont.svg#vaudregular') format('svg');
-  /* Legacy iOS */
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'VaudMedium';
   src: url('../fonts/VaudExtraBoldIt-webfont.eot');
   /* IE9 Compat Modes */
   src: url('../fonts/VaudExtraBoldIt-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/VaudExtraBoldIt-webfont.woff') format('woff'), url('../fonts/VaudExtraBoldIt-webfont.ttf') format('truetype'), url('../fonts/VaudExtraBoldIt-webfont.svg#vaudregular') format('svg');
   /* Legacy iOS */
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -5290,7 +5272,7 @@ blockquote, blockquote p {
   h3 {
     font-size: 1.4375rem; }
   h4 {
-    font-size: 1.4375rem; }
+    font-size: 1.125rem; }
   h5 {
     font-size: 1.125rem; }
   h6 {
