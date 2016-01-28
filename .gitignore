@@ -47,5 +47,4 @@ docroot/sites/*/private
 ######################
 .DS_Store*
 ehthumbs.db
-Icon\?
 Thumbs.db
