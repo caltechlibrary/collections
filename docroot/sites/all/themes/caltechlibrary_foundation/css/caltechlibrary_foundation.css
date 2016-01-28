@@ -6127,7 +6127,9 @@ figure > figcaption {
   .l-main a:hover {
     text-decoration: underline; }
 
-.views-table .views-field-field-dxn-holdings {
+.view-deaccessions .views-field-field-dxn-holdings {
   white-space: nowrap; }
+.view-deaccessions .views-field-field-dxn-requests, .view-deaccessions .views-field-field-dxn-lenders {
+  text-align: center; }
 
 /*# sourceMappingURL=caltechlibrary_foundation.css.map */

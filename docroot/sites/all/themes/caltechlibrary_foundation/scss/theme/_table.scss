@@ -1,0 +1,11 @@
+// Styling for specific tables.
+
+.view-deaccessions {
+  .views-field-field-dxn-holdings {
+    white-space: nowrap;
+  }
+  .views-field-field-dxn-requests,
+  .views-field-field-dxn-lenders {
+    text-align: center;
+  }
+}
