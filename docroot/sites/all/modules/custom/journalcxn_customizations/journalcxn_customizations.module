@@ -5,7 +5,6 @@
  */
 
 function journalcxn_customizations_form_comment_node_deaccession_form_alter(&$form, &$form_state, $form_id) {
-  dpm($form);
   // Disable the homepage field on the comment form.
   $form['author']['homepage']['#access'] = FALSE;
   // Change submit button text.
