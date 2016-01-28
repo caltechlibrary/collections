@@ -6107,6 +6107,13 @@ button {
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 1.1em; }
 
+figure > figcaption {
+  font-style: italic;
+  font-weight: bold; }
+
+.align-center figcaption {
+  text-align: center; }
+
 .front .body h2 {
   color: #7a303f; }
 .front .body h3 {
