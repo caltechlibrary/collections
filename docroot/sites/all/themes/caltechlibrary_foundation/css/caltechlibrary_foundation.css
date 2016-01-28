@@ -6088,8 +6088,12 @@ html {
   max-height: 42px; }
 
 #banner-title {
-  font-family: Vaud, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: LTCCaslonLong, "Times New Roman", Times, serif;
   font-size: 1.6875rem; }
+  @media only screen and (min-width:40.063em) {
+    #banner-title {
+      font-size: 2.3125rem;
+      line-height: 1.3; } }
   #banner-title a {
     color: #000000; }
 
