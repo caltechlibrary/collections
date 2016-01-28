@@ -1,0 +1,11 @@
+.comment {
+  .submitted {
+    font-style: italic;
+    .permalink {
+      display: none;
+    }
+  }
+  .content .field-name-comment-body {
+    white-space: pre-line;
+  }
+}
