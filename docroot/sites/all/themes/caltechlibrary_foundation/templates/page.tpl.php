@@ -16,9 +16,6 @@
       <div class="medium-6 column primary">
         <?php print $linked_logo; ?>
       </div>
-      <div class="medium-6 column secondary">
-        <span id="banner-title"><?php print $linked_site_name; ?></span>
-      </div>
     </div>
 
     <?php if ($top_bar): ?>
