@@ -1,11 +1,18 @@
-// Styling for specific tables.
-
-.view-deaccessions {
+.views-table {
   .views-field-field-dxn-holdings {
     white-space: nowrap;
   }
   .views-field-field-dxn-requests,
   .views-field-field-dxn-lenders {
     text-align: center;
+  }
+  .views-field-comment-count {
+    .comment-comments {
+      margin-bottom: ($column-gutter / 2);
+      white-space: nowrap;
+    }
+    .comment-new-comments {
+      display: none;
+    }
   }
 }

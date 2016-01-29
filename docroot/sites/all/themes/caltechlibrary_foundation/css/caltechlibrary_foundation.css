@@ -6139,9 +6139,14 @@ figure > figcaption {
   .l-main a:hover {
     text-decoration: underline; }
 
-.view-deaccessions .views-field-field-dxn-holdings {
+.views-table .views-field-field-dxn-holdings {
   white-space: nowrap; }
-.view-deaccessions .views-field-field-dxn-requests, .view-deaccessions .views-field-field-dxn-lenders {
+.views-table .views-field-field-dxn-requests, .views-table .views-field-field-dxn-lenders {
   text-align: center; }
+.views-table .views-field-comment-count .comment-comments {
+  margin-bottom: 0.9375rem;
+  white-space: nowrap; }
+.views-table .views-field-comment-count .comment-new-comments {
+  display: none; }
 
 /*# sourceMappingURL=caltechlibrary_foundation.css.map */
