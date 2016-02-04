@@ -52,6 +52,7 @@ projects:
   masquerade: '1'
   module_filter: '2'
   pathauto: '1'
+  redirect: '1'
   session_api: '1'
   simple_toc: '1'
   token: '1'
