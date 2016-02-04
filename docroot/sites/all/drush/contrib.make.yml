@@ -50,6 +50,7 @@ projects:
   module_filter: '2'
   pathauto: '1'
   redirect: '1'
+  stage_file_proxy: '1'
   token: '1'
   views: '3'
   views_bulk_operations: '3'
