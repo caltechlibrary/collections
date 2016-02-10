@@ -1,9 +1,5 @@
 .l-main {
   border-top: 1px solid $primary-color;
-  a:active,
-  a:focus {
-    border: 1px dotted $primary-color
-  }
   a:hover {
     text-decoration: underline;
   }

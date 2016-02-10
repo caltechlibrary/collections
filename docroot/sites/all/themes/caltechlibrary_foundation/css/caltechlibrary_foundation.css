@@ -6054,6 +6054,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+a:focus {
+  outline: 1px dotted; }
+
 .sidebar .block:first-child {
   padding-top: 1.875rem; }
 
@@ -6134,8 +6137,6 @@ figure > figcaption {
 
 .l-main {
   border-top: 1px solid #FF6E1E; }
-  .l-main a:active, .l-main a:focus {
-    border: 1px dotted #FF6E1E; }
   .l-main a:hover {
     text-decoration: underline; }
 
