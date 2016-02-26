@@ -47,6 +47,7 @@ projects:
   jquery_update: '2'
   libraries: '2'
   linkit: '3'
+  maillog: '1'
   masquerade: '1'
   module_filter: '2'
   pathauto: '1'
