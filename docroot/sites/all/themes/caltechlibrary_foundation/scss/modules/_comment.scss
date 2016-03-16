@@ -1,8 +1,16 @@
 .comment {
+  // hide comment titles
+  h3 {
+    display: none;
+  }
   .submitted {
+    // enable flexbox
+    display: inline-flex;
     font-style: italic;
     .permalink {
-      display: none;
+      // move permalink after creation data with flexbox order
+      order: 1;
+      padding-left: ($column-gutter / 2);
     }
   }
   .content .field-name-comment-body {
