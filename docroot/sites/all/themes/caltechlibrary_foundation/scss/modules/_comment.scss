@@ -4,8 +4,10 @@
     display: none;
   }
   .submitted {
+    color: $gray;
     // enable flexbox
     display: inline-flex;
+    font-size: rem-calc(14);
     font-style: italic;
     .permalink {
       // move permalink after creation data with flexbox order
@@ -15,5 +17,8 @@
   }
   .content .field-name-comment-body {
     white-space: pre-line;
+  }
+  .comment-reply {
+    font-size: rem-calc(14);
   }
 }
