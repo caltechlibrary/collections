@@ -6060,6 +6060,9 @@ a:focus {
 .sidebar .block:first-child {
   padding-top: 1.875rem; }
 
+.l-footer {
+  margin-top: 7.5rem; }
+
 .front .body p, .front .body ul {
   padding-left: 0.9375rem; }
 
