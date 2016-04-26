@@ -6054,6 +6054,9 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+blockquote, blockquote p {
+  color: #696B73; }
+
 a:focus {
   outline: 1px dotted; }
 
