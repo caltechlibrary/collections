@@ -6063,9 +6063,6 @@ a:focus {
 .l-footer {
   margin-top: 7.5rem; }
 
-.front .body p, .front .body ul {
-  padding-left: 0.9375rem; }
-
 #header-top .menu {
   margin: 0 auto 1.0625rem auto;
   margin-left: -1.375rem;
@@ -6085,6 +6082,9 @@ a:focus {
 
 .l-main .main {
   margin-top: 0.9375rem; }
+
+.section-about .body p, .section-about .body ul, .section-final .body p, .section-final .body ul, .front .body p, .front .body ul {
+  padding-left: 0.9375rem; }
 
 @media only screen {
   .branding {
@@ -6130,11 +6130,6 @@ figure > figcaption {
 #comment-form .form-item-homepage {
   display: none; }
 
-.front .body h2 {
-  color: #7a303f; }
-.front .body h3 {
-  font-weight: bold; }
-
 #header-top {
   background-color: #696B73;
   color: #FFFFFF;
@@ -6160,5 +6155,10 @@ figure > figcaption {
   white-space: nowrap; }
 .views-table .views-field-comment-count .comment-new-comments {
   display: none; }
+
+.section-about .body h2, .section-final .body h2, .front .body h2 {
+  color: #7a303f; }
+.section-about .body h3, .section-final .body h3, .front .body h3 {
+  font-weight: bold; }
 
 /*# sourceMappingURL=caltechlibrary_foundation.css.map */

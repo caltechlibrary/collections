@@ -101,9 +101,9 @@
 // developer experience. Additionally, grids can be declared in layouts as well.
 @import "layout/aside";
 @import "layout/footer";
-@import "layout/front";
 @import "layout/header";
 @import "layout/main";
+@import "layout/page";
 
 // Modules
 @import "modules/branding";
@@ -117,10 +117,10 @@
 // Themes
 @import "theme/figure";
 @import "theme/form";
-@import "theme/front";
 @import "theme/header_top";
 @import "theme/main";
 @import "theme/table";
+@import "theme/page";
 
 // Older IE support
 // @import "vendor/ie";
