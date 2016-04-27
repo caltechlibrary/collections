@@ -7,9 +7,12 @@
     text-align: center;
   }
   .views-field-comment-count {
+    white-space: nowrap;
+    .comment-add {
+      white-space: normal;
+    }
     .comment-comments {
       margin-bottom: ($column-gutter / 2);
-      white-space: nowrap;
     }
     .comment-new-comments {
       display: none;
