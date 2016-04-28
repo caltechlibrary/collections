@@ -6099,7 +6099,7 @@ a:focus {
 .branding .logo {
   max-height: 42px; }
 
-button {
+button, .button {
   padding-top: 0.625rem;
   padding-right: 1.25rem;
   padding-bottom: 0.6875rem;
