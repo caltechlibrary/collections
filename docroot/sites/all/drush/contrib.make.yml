@@ -38,6 +38,7 @@ projects:
   devel: '1'
   diff: '3'
   entity: '1'
+  environment_indicator: '2'
   feeds: '2'
   floating_block: '1'
   globalredirect: '1'
