@@ -48,3 +48,7 @@ docroot/sites/*/private
 .DS_Store*
 ehthumbs.db
 Thumbs.db
+
+# Application files #
+#####################
+.idea
